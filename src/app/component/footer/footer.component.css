@@ -5,6 +5,26 @@
     margin: auto;
 }
 
+/* Midias e contato */
+.s-media-contact{
+    background-color: #1f1f1f;
+    padding: 20px;
+    width: 40%;
+    text-align: left;
+    margin-left: auto
+}
+
+.s-media-contact h2 {
+    color: #E1BE56;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.s-media-contact row {
+    
+}
+
+/* Mande um e-mail! */
 .contact {
     background-color: #1f1f1f;
     padding: 20px;
