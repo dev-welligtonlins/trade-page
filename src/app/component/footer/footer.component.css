@@ -8,8 +8,9 @@
 .contact {
     background-color: #1f1f1f;
     padding: 20px;
-    max-width: 100%;
+    width: 40%;
     text-align: left;
+    margin-left: auto
 }
 
 /* Estilização do título */
@@ -23,11 +24,12 @@
 .contact form {
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
 }
 
 .contact input, .contact textarea {
-    width: 100%;
+    width: 80%;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
@@ -38,10 +40,12 @@
 
 .contact textarea {
     resize: vertical;
-    height: 80px;
+    height: 70px;
 }
 
 .contact button {
+    display: flex;
+    width: 40%;
     padding: 8px;
     background: linear-gradient(45deg, #907814, #E1BE56, #F7DD76, #D0A63C);
     color: #121212;
@@ -49,7 +53,7 @@
     border-radius: 5px;
     cursor: pointer;
     transition: all 0.3s ease;
-    font-size: 1em;
+    font-size: 1.65vw;
 }
 
 .contact button:hover {
